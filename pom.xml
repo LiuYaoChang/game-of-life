@@ -48,6 +48,7 @@
                             <goal>test</goal>
                         </goals>
                         <configuration>
+                            <testFailureIgnore>true</testFailureIgnore>
                             <skip>false</skip>
                             <includes>
                                 <include>**/When*.java</include>
